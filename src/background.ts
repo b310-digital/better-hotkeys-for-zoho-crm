@@ -13,7 +13,7 @@ chrome.runtime.onInstalled.addListener(async () => {
     // While we could have used `let url = "hello.html"`, using runtime.getURL is a bit more robust as
     // it returns a full URL rather than just a path that Chrome needs to be resolved contextually at
     // runtime.
-    let url = chrome.runtime.getURL("hello.html");
+    let url = chrome.runtime.getURL("index.html");
   
     // Open a new tab pointing at our page's URL using JavaScript's object initializer shorthand.
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#new_notations_in_ecmascript_2015

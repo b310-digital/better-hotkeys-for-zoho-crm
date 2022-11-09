@@ -4,7 +4,7 @@
 
 ```
 docker compose up -d
-npm run build
+docker compose exec hotkeys npm run build
 ```
 
 Import the `public` directory in chrome to use it as an extension:
