@@ -1,12 +1,12 @@
 {
-    "name": "Hello, World!",
-    "version": "1.0",
-    "manifest_version": 3,
-    "background": {
-      "service_worker": "build/background.js"
-    },
-    "action": {
-      "default_popup": "index.html",
-      "default_icon": "hello_extensions.png"
-    }
+  "name": "Hello, World!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "build/background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "hello_extensions.png"
+  }
 }
