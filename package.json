@@ -1,0 +1,30 @@
+{
+  "name": "zoho-crm-hotkeys-chrome",
+  "version": "0.0.1",
+  "description": "CRM Zoho Browser Extension for Chrome that enables hotkeys",
+  "scripts": {
+    "build": "NODE_ENV=\"production\" node esbuild.js",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check ."
+  },
+  "keywords": [
+    "browser extension",
+    "chrome"
+  ],
+  "author": "Jannik Streek",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "0.0.200",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@types/webextension-polyfill": "^0.9.1",
+    "esbuild": "^0.15.13",
+    "typescript": "^4.8.4",
+    "webextension-polyfill": "^0.10.0"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
