@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  hotkeys:
+    image: node:18.12.1-bullseye
+    tty: true
+    stdin_open: true
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app

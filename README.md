@@ -1,5 +1,16 @@
 # Zoho CRM Hotkeys as Chrome Browser Extension
 
+## Development
+
+```
+docker compose up -d
+docker compose exec hotkeys npm run build
+```
+
+Import the `public` directory in chrome to use it as an extension:
+
+https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
+
 ## Hotkey Overview
 
 | Task                | Hotkey      | Hotkey if outside of Zoho CRM |
