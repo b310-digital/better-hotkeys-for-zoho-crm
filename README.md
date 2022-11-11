@@ -2,9 +2,14 @@
 
 ## Development
 
-```
+```bash
 docker compose up -d
 docker compose exec hotkeys npm run build
+```
+
+For continuous bundling you can the `--watch` command
+```bash
+docker compose exec hotkeys npm run build -- --watch
 ```
 
 Import the `public` directory in chrome to use it as an extension:
