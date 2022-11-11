@@ -7,7 +7,7 @@
 // * addListener - what we want to do with this event
 //
 // See https://developer.chrome.com/docs/extensions/reference/events/ for additional details.
-chrome.runtime.onInstalled.addListener(async () => {
+chrome.runtime.onInstalled.addListener(async (obj: { reason: string }) => {
   // While we could have used `let url = "hello.html"`, using runtime.getURL is a bit more robust as
   // it returns a full URL rather than just a path that Chrome needs to be resolved contextually at
   // runtime.
@@ -29,3 +29,22 @@ chrome.runtime.onInstalled.addListener(async () => {
   // "service worker" link in the card to open DevTools.
   console.log(`Created tab ${tab.id}`);
 });
+
+chrome.commands.onCommand.addListener(async (command) => {
+  console.log(`Command "${command}" triggered`);
+
+  const url: string = await getZohoUrl();
+
+  switch (command) {
+    case "zoho-leads-open":
+      chrome.tabs.create({ url: url });
+      break;
+  }
+});
+
+const getZohoUrl = async (): Promise<string> => {
+  const zohoLocation = (await chrome.storage.local.get("location")).location;
+  const zohoOrgId = (await chrome.storage.local.get("zohoId")).zohoId;
+
+  return `https://crm.zoho.${zohoLocation}/crm/${zohoOrgId}/tab/Home/begin`;
+};
