@@ -16,6 +16,27 @@
         "mac": "Alt+Shift+L"
       },
       "description": "Open Leads module"
+    },
+    "zoho-deals-open": {
+      "suggested_key": {
+        "default": "Alt+Shift+D",
+        "mac": "Alt+Shift+D"
+      },
+      "description": "Open Deals module"
+    },
+    "zoho-accounts-open": {
+      "suggested_key": {
+        "default": "Alt+Shift+A",
+        "mac": "Alt+Shift+A"
+      },
+      "description": "Open Accounts module"
+    },
+    "zoho-contacts-open": {
+      "suggested_key": {
+        "default": "Alt+Shift+C",
+        "mac": "Alt+Shift+C"
+      },
+      "description": "Open Contacts module"
     }
   },
   "permissions": ["storage"]

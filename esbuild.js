@@ -17,6 +17,6 @@ require("esbuild")
       ".svg": "file",
       ".html": "file",
     },
-    watch: !!process.argv.includes('--watch')
+    watch: !!process.argv.includes("--watch"),
   })
   .catch(() => process.exit(1));
