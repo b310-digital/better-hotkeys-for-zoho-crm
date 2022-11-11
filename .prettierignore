@@ -1,0 +1,2 @@
+# Avoid formating the bundle (and minified) output
+/public/build
