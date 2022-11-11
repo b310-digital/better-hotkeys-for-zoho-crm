@@ -8,6 +8,7 @@ docker compose exec hotkeys npm run build
 ```
 
 For continuous bundling you can the `--watch` command
+
 ```bash
 docker compose exec hotkeys npm run build -- --watch
 ```

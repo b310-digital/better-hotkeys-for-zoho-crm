@@ -6,6 +6,9 @@
 // * onInstalled - the event we want to subscribe to
 // * addListener - what we want to do with this event
 //
+
+import UrlService from "./services/UrlService";
+
 // See https://developer.chrome.com/docs/extensions/reference/events/ for additional details.
 chrome.runtime.onInstalled.addListener(async (obj: { reason: string }) => {
   // While we could have used `let url = "hello.html"`, using runtime.getURL is a bit more robust as
@@ -33,18 +36,18 @@ chrome.runtime.onInstalled.addListener(async (obj: { reason: string }) => {
 chrome.commands.onCommand.addListener(async (command) => {
   console.log(`Command "${command}" triggered`);
 
-  const url: string = await getZohoUrl();
-
   switch (command) {
     case "zoho-leads-open":
-      chrome.tabs.create({ url: url });
+      chrome.tabs.create({ url: await UrlService.getZohoLeadModuleUrl() });
+      break;
+    case "zoho-deals-open":
+      chrome.tabs.create({ url: await UrlService.getZohoDealModuleUrl() });
+      break;
+    case "zoho-accounts-open":
+      chrome.tabs.create({ url: await UrlService.getZohoAccountModuleUrl() });
+      break;
+    case "zoho-contacts-open":
+      chrome.tabs.create({ url: await UrlService.getZohoContactModuleUrl() });
       break;
   }
 });
-
-const getZohoUrl = async (): Promise<string> => {
-  const zohoLocation = (await chrome.storage.local.get("location")).location;
-  const zohoOrgId = (await chrome.storage.local.get("zohoId")).zohoId;
-
-  return `https://crm.zoho.${zohoLocation}/crm/${zohoOrgId}/tab/Home/begin`;
-};
