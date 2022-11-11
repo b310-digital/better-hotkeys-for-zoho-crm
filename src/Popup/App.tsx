@@ -62,6 +62,7 @@ export default function App() {
                 onChange={handleServerLocationChange}
                 value={selectedServerLocation}
               >
+                <option></option>
                 <option>eu</option>
                 <option>com</option>
               </select>
