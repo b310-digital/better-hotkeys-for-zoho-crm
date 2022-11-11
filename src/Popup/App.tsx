@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 export default function App() {
   const [selectedServerLocation, setServerLocation] = useState();
   const [zohoOrgId, setZohoOrgId] = useState();
+  const [zohoLink, setZohoLink] = useState();
 
   useEffect(() => {
     chrome.storage.local.get("location", (result) => {
@@ -35,10 +36,44 @@ export default function App() {
     saveData("zohoId", event.target.value);
   };
 
+  const handleZohoUrlChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (event.target.value === "") return;
+
+    const regexp = new RegExp(
+      /crm.zoho.(?<location>eu|com)\/crm\/(?<zohoId>org\d*)\/tab\//
+    );
+    const matches = regexp.exec(event.target.value);
+
+    if (matches?.groups === undefined) return;
+
+    const zohoId: string = matches?.groups?.zohoId || "";
+    const zohoLocation: string = matches?.groups?.location || "";
+    setZohoOrgId(zohoId);
+    setServerLocation(zohoLocation);
+    setZohoLink(event.target.value);
+    saveData("zohoId", zohoId);
+    saveData("location", zohoLocation);
+  };
+
   return (
     <div className="columns is-centered">
       <div className="column">
         <h1 className="title">Zoho Settings</h1>
+        <div className="field">
+          <label className="label">Zoho Link</label>
+          <div className="control">
+            <input
+              className="input"
+              type="text"
+              placeholder="https://..."
+              onChange={handleZohoUrlChange}
+            />
+          </div>
+          <p className="help">
+            Paste the zoho link to retrieve the needed information
+          </p>
+        </div>
+        <hr />
         <div className="field">
           <label className="label">Org ID</label>
           <div className="control">
