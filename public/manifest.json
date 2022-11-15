@@ -52,5 +52,5 @@
       "description": "Open Contacts module"
     }
   },
-  "permissions": ["storage"]
+  "permissions": ["storage", "tabs"]
 }
