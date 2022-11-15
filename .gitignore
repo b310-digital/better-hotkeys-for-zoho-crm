@@ -3,5 +3,8 @@
 
 *.DS_Store
 
-# Exclude local override files for docker-compose
+# Ignoring local overridesfor docker compose config
 docker-compose.override.yml
+
+# Ignoring local workspace settings in vscode
+.vscode/settings.json
