@@ -57,6 +57,7 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 > --
 > - Start Zoho directly within the accounts, deals, contacts and leads module from anywhere by pressing the dedicated hotkey.
 > - Contextual hotkeys depending on the current context within zoho to edit leads, open a new zoho mail window and more.
+> - Add the zoho org id and zoho domain just by pasting in your zoho crm link.
 >
 > Non-Affiliation statement
 > --
