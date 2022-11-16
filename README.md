@@ -76,3 +76,15 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 
 
 ### Logos
+
+https://developer.chrome.com/docs/webstore/images/
+
+- 128x128-pixel extension icon, with 96x96x being the real content
+- 440x280-pixel promotional image
+- Optional: Marquee with 1400x560 pixels
+
+### Screenshots (1-5)
+Should have...
+
+- Square corners, no padding (full bleed)
+- 1280x800 or 640x400 pixels
