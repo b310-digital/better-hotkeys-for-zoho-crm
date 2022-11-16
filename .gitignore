@@ -2,3 +2,9 @@
 /public/build
 
 *.DS_Store
+
+# Ignoring local overridesfor docker compose config
+docker-compose.override.yml
+
+# Ignoring local workspace settings in vscode
+.vscode/settings.json

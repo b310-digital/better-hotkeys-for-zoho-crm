@@ -9,6 +9,19 @@
     "default_popup": "index.html",
     "default_icon": "/images/zoho_better_hotkeys_icon.png"
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.zoho.com.au/*",
+        "https://*.zoho.com.cn/*",
+        "https://*.zoho.com/*",
+        "https://*.zoho.eu/*",
+        "https://*.zoho.in/*",
+        "https://*.zoho.jp/*"
+      ],
+      "js": ["/build/content-script.js"]
+    }
+  ],
   "commands": {
     "zoho-leads-open": {
       "suggested_key": {
@@ -39,5 +52,5 @@
       "description": "Open Contacts module"
     }
   },
-  "permissions": ["storage"]
+  "permissions": ["storage", "tabs"]
 }
