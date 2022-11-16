@@ -1,10 +1,12 @@
 import { string } from "prop-types";
-import React, { useEffect, useState } from "react";
+import React, { SetStateAction, useEffect, useState } from "react";
 
 export default function App() {
-  const [selectedServerLocation, setServerLocation] = useState();
-  const [zohoOrgId, setZohoOrgId] = useState();
-  const [zohoLink, setZohoLink] = useState();
+  const [selectedServerLocation, setServerLocation] = useState<
+    string | undefined
+  >();
+  const [zohoOrgId, setZohoOrgId] = useState<string | undefined>();
+  const [zohoLink, setZohoLink] = useState<string | undefined>();
 
   useEffect(() => {
     chrome.storage.local.get("location", (result) => {
