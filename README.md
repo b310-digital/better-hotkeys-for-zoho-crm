@@ -51,20 +51,24 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 
 ### Descriptions
 
-> 'Better Hotkeys for Zoho CRM' adds global and contextual hotkeys to improve your performance with Zoho CRM.
+> 'Better Hotkeys for Zoho CRM' adds global and contextual hotkeys to improve your experience with Zoho CRM.
 >
 > Feature Set:
-> - Open Zoho directly within the accounts, deals, contacts and leads module from anywhere
+> --
+> - Start Zoho directly within the accounts, deals, contacts and leads module from anywhere
 > - Contextual hotkeys to edit leads, open mail window etc.
 >
 > Disclaimer:
+> --
 > This extension and the developers are not affiliated in any way with Zoho, meaning this extension is not official. The extension does not alter the Zoho CRM website's HTML, it merely adds hotkeys to trigger existing links and buttons.
 >
 > Any product names, logos, brands, and other trademarks or images featured or referred to within this extension are the
 > property of their respective trademark holders. These trademark holders are not affiliated with this extension, our products, or our websites.
 > They do not sponsor or endorse this extension or any of our products.
 >
-> Privacy: This extension only saves the zoho org id and zoho domain if given. The extension does not send data to any servers nor does it store more information than the zoho org id and zoho domain.
+> Privacy:
+> ---
+> This extension only saves the zoho org id and zoho domain if given. The extension does not send data to any servers nor does it store more information than the zoho org id and zoho domain.
 >
 > Open Source Code: ...
 >
