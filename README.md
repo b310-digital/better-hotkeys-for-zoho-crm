@@ -83,6 +83,20 @@ https://developer.chrome.com/docs/webstore/images/
 - 440x280-pixel promotional image
 - Optional: Marquee with 1400x560 pixels
 
+#### Banner
+
+![Chrome Web Store](/public/images/chrome_web_store_logo_better_hotkeys.png)
+
+#### Logo
+
+SVG
+
+![Logo](/public/images/zoho_better_hotkeys_icon.svg)
+
+PNG
+
+![Logo](/public/images/zoho_better_hotkeys_icon.png)
+
 ### Screenshots (1-5)
 Should have...
 
