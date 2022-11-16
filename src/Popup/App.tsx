@@ -42,7 +42,7 @@ export default function App() {
     if (event.target.value === "") return;
 
     const regexp = new RegExp(
-      /crm.zoho.(?<location>eu|com)\/crm\/(?<zohoId>org\d*)\/tab\//
+      /crm.zoho.(?<location>eu|com|com.au|com.cn|in|jp)\/crm\/(?<zohoId>org\d*)\/tab\//
     );
     const matches = regexp.exec(event.target.value);
 
@@ -100,8 +100,12 @@ export default function App() {
                 value={selectedServerLocation}
               >
                 <option></option>
-                <option>eu</option>
+                <option>com.au</option>
+                <option>com.cn</option>
                 <option>com</option>
+                <option>eu</option>
+                <option>in</option>
+                <option>jp</option>
               </select>
             </div>
           </div>
