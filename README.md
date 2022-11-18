@@ -45,9 +45,9 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 
 | Command                                          | Hotkey on PC Keyboard | Hotkey on Apple Keyboard |
 | ------------------------------------------------ | --------------------- | ------------------------ |
-| [ ] Convert to potential                         | `alt + c`             | `option + c`             |
-| [ ] Create New Zoho CRM record, e.g. contact (C) | `n`                   | `n`                      |
-| [ ] Delete current record                        | `alt + d`             | `option + d`             |
+| [x] Convert to potential                         | `alt + c`             | `option + c`             |
+| [x] Create New Zoho CRM record, e.g. contact (C) | `n`                   | `n`                      |
+| [x] Delete current record                        | `alt + d`             | `option + d`             |
 | [x] Compose email for current record             | `alt + m`             | `option + m`             |
 | [x] Edit Zoho CRM record                         | `e`                   | `e`                      |
 | [x] Save Zoho CRM record                         | `alt + s`             | `option + s`             |

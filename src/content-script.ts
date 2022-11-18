@@ -22,10 +22,12 @@ const mapping = {
   "8": "crm-menu > div.crmMenuLeft.fL > crm-tab > div.lyteMenuItems > div:nth-child(8)",
   "9": "crm-menu > div.crmMenuLeft.fL > crm-tab > div.lyteMenuItems > div:nth-child(9)",
   "e": "button#editRecordbtn", // prettier-ignore
+  "n": "#table_row_1 > lyte-td.alignRight > span.customPluswithImpotBtnCon.pR.cPlusImportButton.vam > link-to > button", // prettier-ignore
   // The following hot might not work on all circumstances. We should do some proper testing here.
   // We should find more explicit identifiers.
   // <a href="javascript:;" name="Delete2" data-zcqa="dvdeleteEntity" data-cid="deleteEntity" data-params="{&quot;module&quot;:&quot;Accounts&quot;,&quot;id&quot;:&quot;510691000000348104&quot;}">Delete</a>
   "alt+d": "a[data-cid=deleteEntity]",
+  "alt+c": "#conLink[data-zcqa=convert] > button",
   "alt+m": "#sendEntityMailLink",
   "alt+s": "button#crm_create_savebutn",
   "left": "img#detailPrevious", // prettier-ignore
