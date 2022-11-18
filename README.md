@@ -70,7 +70,7 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 > ---
 > This extension only saves the zoho org id and zoho domain if given. The extension does not send data to any servers nor does it store more information than the zoho org id and zoho domain.
 >
-> Open Source Code: ...
+> Open Source Code: https://github.com/b310-digital/zoho-crm-hotkeys
 >
 > Zoho Brand information: https://www.zoho.com/branding/
 
@@ -102,3 +102,11 @@ Should have...
 
 - Square corners, no padding (full bleed)
 - 1280x800 or 640x400 pixels
+
+# Links
+
+Keyboard font by 212 Fonts: https://www.fontspace.com/212-keyboard-font-f34592
+
+# License
+
+Licensed under AGPL
