@@ -45,3 +45,70 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 | [x] Jump to previous entry in CRM records                                                 | Option + ←                   |                               |
 | [ ] Jump to notes in edit mode                                                            | Option + N + O               |                               |
 | [x] Save Zoho CRM record                                                                  | Option + S                   |                               |
+
+
+## chrome web store
+
+### Descriptions
+
+> 'Better Hotkeys for Zoho CRM' provides easy keyboard hotkeys to make you the fastest Zoho CRM power user in your company.
+>
+> Feature Set
+> --
+> - Quickly open a main Zoho CRM module in a new tab from anywhere
+> - Easy keyboard hotkeys for navigating through Zoho CRM and editing records
+> - Support for all Zoho CRM regions
+> - Privacy-oriented implementation stores minimum data (only when really necessary)
+> - Coming soon: Override and define custom key bindings for optimal personal usage
+
+> Non-Affiliation statement
+> --
+> This extension and the developers are not affiliated in any way with Zoho, meaning this extension is not official. The extension does not alter the Zoho CRM website's HTML, it merely adds hotkeys to trigger existing links and buttons.
+>
+> The official Zoho website can be found at https://www.zoho.com. 
+> "Zoho", Zoho logos, and other Zoho trademarks are trademarks or registered trademarks of Zoho Corporation or its affiliates in India, the U.S. and elsewhere.
+>
+> Privacy
+> ---
+> This extension only saves the zoho org id and zoho domain if given. The extension does not send data to any servers nor does it store more information than the zoho org id and zoho domain.
+>
+> Open Source Code: https://github.com/b310-digital/zoho-crm-hotkeys
+>
+> Zoho Brand information: https://www.zoho.com/branding/
+
+
+### Logos
+
+https://developer.chrome.com/docs/webstore/images/
+
+- 128x128-pixel extension icon, with 96x96x being the real content
+- 440x280-pixel promotional image
+- Optional: Marquee with 1400x560 pixels
+
+#### Banner
+
+![Chrome Web Store](/public/images/chrome_web_store_logo_better_hotkeys.png)
+
+#### Logo
+
+SVG
+
+![Logo](/public/images/zoho_better_hotkeys_icon.svg)
+
+PNG
+
+![Logo](/public/images/zoho_better_hotkeys_icon.png)
+
+### Screenshots (1-5)
+Should have...
+
+- Square corners, no padding (full bleed)
+- 1280x800 or 640x400 pixels
+
+# Links
+
+Keyboard font by 212 Fonts: https://www.fontspace.com/212-keyboard-font-f34592
+
+# License
+
+Licensed under AGPL
