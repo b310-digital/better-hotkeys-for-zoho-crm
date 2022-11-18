@@ -5,8 +5,13 @@ export default class UrlService {
   private static contactsModuleRelative = "/tab/Contacts";
 
   public static getZohoUrl = async (): Promise<string> => {
-    const zohoLocation = (await chrome.storage.local.get("location")).location;
+    const zohoLocation =
+      (await chrome.storage.local.get("location")).location || "com";
     const zohoOrgId = (await chrome.storage.local.get("zohoId")).zohoId;
+
+    if (!zohoOrgId) {
+      return `https://crm.zoho.${zohoLocation}/crm`;
+    }
 
     return `https://crm.zoho.${zohoLocation}/crm/${zohoOrgId}`;
   };
