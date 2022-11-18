@@ -36,6 +36,43 @@ chrome.runtime.onInstalled.addListener(async (obj: { reason: string }) => {
 chrome.commands.onCommand.addListener(async (command) => {
   console.log(`Command "${command}" triggered`);
 
+  let activeTabs = await chrome.tabs.query({
+    active: true,
+    currentWindow: true,
+  });
+
+  if (activeTabs.length != 1) {
+    console.log("There are more active tabs. This is unexpected.");
+    return;
+  }
+
+  const activeTab = activeTabs[0];
+
+  if (!activeTab.url) {
+    console.log("There are more active tabs. This is unexpected.");
+    return;
+  }
+
+  const url = new URL(activeTab.url);
+  if (url.hostname.includes(".zoho.")) {
+    console.log("We let the content script handle this behavior");
+    switch (command) {
+      case "zoho-leads-open":
+        chrome.tabs.update({ url: await UrlService.getZohoLeadModuleUrl() });
+        break;
+      case "zoho-deals-open":
+        chrome.tabs.update({ url: await UrlService.getZohoDealModuleUrl() });
+        break;
+      case "zoho-accounts-open":
+        chrome.tabs.update({ url: await UrlService.getZohoAccountModuleUrl() });
+        break;
+      case "zoho-contacts-open":
+        chrome.tabs.update({ url: await UrlService.getZohoContactModuleUrl() });
+        break;
+    }
+    return;
+  }
+
   switch (command) {
     case "zoho-leads-open":
       chrome.tabs.create({ url: await UrlService.getZohoLeadModuleUrl() });
