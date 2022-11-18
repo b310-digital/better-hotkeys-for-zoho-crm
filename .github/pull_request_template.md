@@ -9,4 +9,3 @@
 ## After Merge Checklist
 
 - [ ] Item 1
-
