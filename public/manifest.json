@@ -12,12 +12,18 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*.zoho.com.au/*",
-        "https://*.zoho.com.cn/*",
-        "https://*.zoho.com/*",
-        "https://*.zoho.eu/*",
-        "https://*.zoho.in/*",
-        "https://*.zoho.jp/*"
+        "https://crm.zoho.com.au/crm/*",
+        "https://crm.zoho.com.cn/crm/*",
+        "https://crm.zoho.com/crm/*",
+        "https://crm.zoho.eu/crm/*",
+        "https://crm.zoho.in/crm/*",
+        "https://crm.zoho.jp/crm/*",
+        "https://crmsandbox.zoho.com.au/crm/*",
+        "https://crmsandbox.zoho.com.cn/crm/*",
+        "https://crmsandbox.zoho.com/crm/*",
+        "https://crmsandbox.zoho.eu/crm/*",
+        "https://crmsandbox.zoho.in/crm/*",
+        "https://crmsandbox.zoho.jp/crm/*"
       ],
       "js": ["/build/content-script.js"]
     }
@@ -52,5 +58,5 @@
       "description": "Open Contacts module"
     }
   },
-  "permissions": ["storage", "tabs"]
+  "permissions": ["storage"]
 }
