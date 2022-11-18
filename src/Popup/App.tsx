@@ -82,6 +82,7 @@ export default function App() {
       <div className="columns is-centered">
         <div className="column">
           <h1 className="title">Zoho Settings</h1>
+          <h2 className="subtitle">Optional, used for global zoho hotkeys</h2>
           <hr />
           <div className="field">
             <label className="label">Zoho Link</label>
