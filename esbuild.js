@@ -19,6 +19,7 @@ require("esbuild")
       ".woff2": "file",
       ".ttf": "file",
       ".svg": "file",
+      ".png": "file",
       ".html": "file",
     },
     watch: !!process.argv.includes("--watch"),
