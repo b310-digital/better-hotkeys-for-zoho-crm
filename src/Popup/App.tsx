@@ -182,10 +182,10 @@ export default function App() {
               <tr>
                 <td>Search (global)</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>Space</kbd>
+                  <kbd>Alt</kbd> <kbd>space</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>Space</kbd>
+                  <kbd>⌥ option</kbd> <kbd>space</kbd>
                 </td>
               </tr>
             </tbody>
@@ -314,55 +314,55 @@ export default function App() {
               <tr>
                 <td>Convert to potential</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>C</kbd>
+                  <kbd>Alt</kbd> <kbd>c</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>C</kbd>
+                  <kbd>⌥ option</kbd> <kbd>c</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Create New Zoho CRM record, e.g. contact (C)</td>
                 <td>
-                  <kbd>N</kbd>
+                  <kbd>n</kbd>
                 </td>
                 <td>
-                  <kbd>N</kbd>
+                  <kbd>n</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Delete current record</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>D</kbd>
+                  <kbd>Alt</kbd> <kbd>d</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>D</kbd>
+                  <kbd>⌥ option</kbd> <kbd>d</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Compose email for current record</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>M</kbd>
+                  <kbd>Alt</kbd> <kbd>m</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>M</kbd>
+                  <kbd>⌥ option</kbd> <kbd>m</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Edit Zoho CRM record</td>
                 <td>
-                  <kbd>E</kbd>
+                  <kbd>e</kbd>
                 </td>
                 <td>
-                  <kbd>E</kbd>
+                  <kbd>e</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Save Zoho CRM record</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>S</kbd>
+                  <kbd>Alt</kbd> <kbd>s</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>S</kbd>
+                  <kbd>⌥ option</kbd> <kbd>s</kbd>
                 </td>
               </tr>
             </tbody>
@@ -380,37 +380,37 @@ export default function App() {
               <tr>
                 <td>Open Accounts Module (global)</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>A</kbd>
+                  <kbd>Alt</kbd> <kbd>⇧ shift</kbd> <kbd>a</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>Shift</kbd> <kbd>A</kbd>
+                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>a</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Open Deals Module (global)</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>D</kbd>
+                  <kbd>Alt</kbd> <kbd>⇧ shift</kbd> <kbd>d</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>Shift</kbd> <kbd>D</kbd>
+                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>d</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Open Contacts Module (global)</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>C</kbd>
+                  <kbd>Alt</kbd> <kbd>⇧ shift</kbd> <kbd>c</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>Shift</kbd> <kbd>C</kbd>
+                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>c</kbd>
                 </td>
               </tr>
               <tr>
                 <td>Open Leads Module (global)</td>
                 <td>
-                  <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>L</kbd>
+                  <kbd>Alt</kbd> <kbd>⇧ shift</kbd> <kbd>l</kbd>
                 </td>
                 <td>
-                  <kbd>Option</kbd> <kbd>Shift</kbd> <kbd>L</kbd>
+                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>l</kbd>
                 </td>
               </tr>
             </tbody>
