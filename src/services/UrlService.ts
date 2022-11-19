@@ -8,12 +8,14 @@ export default class UrlService {
     const zohoLocation =
       (await chrome.storage.local.get("location")).location || "com";
     const zohoOrgId = (await chrome.storage.local.get("zohoId")).zohoId;
+    const zohoCRMSystem = (await chrome.storage.local.get("zohoCRMSystem"))
+      .zohoCRMSystem;
 
     if (!zohoOrgId) {
-      return `https://crm.zoho.${zohoLocation}/crm`;
+      return `https://${zohoCRMSystem}.zoho.${zohoLocation}/crm`;
     }
 
-    return `https://crm.zoho.${zohoLocation}/crm/${zohoOrgId}`;
+    return `https://${zohoCRMSystem}.zoho.${zohoLocation}/crm/${zohoOrgId}`;
   };
 
   public static getZohoLeadModuleUrl = async () => {
