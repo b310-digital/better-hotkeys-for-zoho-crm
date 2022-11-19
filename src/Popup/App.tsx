@@ -20,7 +20,7 @@ export default function App() {
     });
 
     chrome.storage.local.get("zohoCRMSystem", (result) => {
-      setZohoCRMSystem(result.zohoId);
+      setZohoCRMSystem(result.zohoCRMSystem);
     });
   }, []);
 
@@ -47,7 +47,7 @@ export default function App() {
   const handleZohoCRMSystemChange = (
     event: React.ChangeEvent<HTMLSelectElement>
   ) => {
-    setZohoOrgId(event.target.value);
+    setZohoCRMSystem(event.target.value);
     saveData("zohoCRMSystem", event.target.value);
   };
 
