@@ -90,7 +90,7 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 >
 > ## Privacy
 >
-> This extension only saves the zoho org id and zoho domain if given. The extension does not send data to any servers nor does it store more information than the zoho org id and zoho domain.
+> This extension only saves the Zoho Org Id, Zoho system type (crmsandbox or crm) and Zoho domain if given. The extension does not send data to any servers nor does it store more information than the zoho org id and zoho domain.
 >
 > Open Source Code: https://github.com/b310-digital/zoho-crm-hotkeys
 >
