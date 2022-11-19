@@ -120,7 +120,10 @@ PNG
 
 ### Screenshots (1-5)
 
-Should have...
+- Hero Video: https://youtu.be/dDnyZ4gi1Ho
+- Screenshots (raw and 1280x800 dimensions) are located in `./public/images`
+
+Note: Constraints for screenshots are documented in https://developer.chrome.com/docs/webstore/images/#screenshots , e.g.:
 
 - Square corners, no padding (full bleed)
 - 1280x800 or 640x400 pixels
