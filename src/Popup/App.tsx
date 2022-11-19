@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 export default function App() {
   const [selectedServerLocation, setServerLocation] = useState<
     string | undefined
-  >();
+  >("com");
   const [zohoOrgId, setZohoOrgId] = useState<string | undefined>();
-  const [zohoLink, setZohoLink] = useState<string | undefined>("com");
+  const [_zohoLink, setZohoLink] = useState<string | undefined>();
+  const [zohoCRMSystem, setZohoCRMSystem] = useState<string | undefined>("crm");
 
   useEffect(() => {
     chrome.storage.local.get("location", (result) => {
@@ -16,6 +17,10 @@ export default function App() {
 
     chrome.storage.local.get("zohoId", (result) => {
       setZohoOrgId(result.zohoId);
+    });
+
+    chrome.storage.local.get("zohoCRMSystem", (result) => {
+      setZohoCRMSystem(result.zohoCRMSystem);
     });
   }, []);
 
@@ -39,11 +44,18 @@ export default function App() {
     saveData("zohoId", event.target.value);
   };
 
+  const handleZohoCRMSystemChange = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
+    setZohoCRMSystem(event.target.value);
+    saveData("zohoCRMSystem", event.target.value);
+  };
+
   const handleZohoUrlChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.value === "") return;
 
     const regexp = new RegExp(
-      /crm.zoho.(?<location>eu|com|com.au|com.cn|in|jp)\/crm\/(?<zohoId>org\d*)\/tab\//
+      /(?<system>crm|crmsandbox).zoho.(?<location>eu|com|com.au|com.cn|in|jp)\/crm\/(?<zohoId>org\d*)\/tab\//
     );
     const matches = regexp.exec(event.target.value);
 
@@ -51,11 +63,14 @@ export default function App() {
 
     const zohoId: string = matches?.groups?.zohoId || "";
     const zohoLocation: string = matches?.groups?.location || "";
+    const zohoCRMSystem: string = matches?.groups?.system || "";
     setZohoOrgId(zohoId);
     setServerLocation(zohoLocation);
     setZohoLink(event.target.value);
+    setZohoCRMSystem(zohoCRMSystem);
     saveData("zohoId", zohoId);
     saveData("location", zohoLocation);
+    saveData("zohoCRMSystem", zohoCRMSystem);
   };
 
   return (
@@ -129,6 +144,21 @@ export default function App() {
                   <option>eu</option>
                   <option>in</option>
                   <option>jp</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div className="field">
+            <label className="label">Server System</label>
+            <div className="control">
+              <div className="select">
+                <select
+                  onChange={handleZohoCRMSystemChange}
+                  value={zohoCRMSystem}
+                >
+                  <option></option>
+                  <option>crmsandbox</option>
+                  <option>crm</option>
                 </select>
               </div>
             </div>
