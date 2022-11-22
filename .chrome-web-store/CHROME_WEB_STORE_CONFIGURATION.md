@@ -1,93 +1,58 @@
-# Google Chrome Web Store Configuration
+# Chrome Web Store Configuration
 
 This folder contains the text, assets and other content used in the entry in the Google Chrome Web Store. We want to keep it up to date.
 
-## Extension Name
+## Chrome Web Store - Product Details
+
+### Extension Name
 
 ```text
 Better Hotkeys For Zoho CRM
 ```
 
-## Extension Description
+### Extension Description
 
 ```text
-'Better Hotkeys for Zoho CRM' provides easy keyboard hotkeys to make you the fastest Zoho CRM power user in your company.
+'Better Hotkeys for Zoho CRM' provides easy keyboard hotkeys to make you the fastest Zoho CRM user in your company.
 
-## Features
+All hotkeys are documented in the plugin popup.
 
-- Quickly open main Zoho CRM modules in a new tab from anywhere
-- Easy keyboard hotkeys for navigating through Zoho CRM menu bar
-- Create new, edit and delete Zoho CRM records at the speed of light
-- Privacy-focussed extension storing no personal data
-- Support for all Zoho CRM regions
-- Coming soon: Define your own key bindings for optimal personal usage, more feature requests from Zoho CRM power users
+⭐️ Easy keyboard hotkeys for navigating the Zoho CRM menu bar
+ - Jump to Menu Item 1 => `1`
+ - Jump to Menu Item 2 => `2`
+ - Jump to Menu Item 3 => `3`
+ - etc.
 
-## Available Zoho CRM Hotkeys
+⭐️ Create new, edit, save and delete Zoho CRM records at the speed of light
+- Compose email => `alt + m` on PC / `option + m` on 🍏
+- Convert lead to accout, contact and potential => `alt + c` on PC / `option + c` on 🍏
+- Delete current record => `alt + d` on PC / `option + d` on 🍏
+- Edit Zoho CRM record => `e`
+- New Zoho CRM record => `n`
+- Save Zoho CRM record => `alt + s` on PC / `option + s` on 🍏
 
-| Command           | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ----------------- | -------------------- | ----------------------- |
-| [x] Global search | `alt + space`        | `option + space`        |
+⭐️ Quickly open Zoho CRM modules in a new tab from anywhere
+- Open Zoho CRM Account Module in new tab => `alt + shift + a` on PC / `option + shift + a` on 🍏
+- Open Zoho CRM Contact Module in new tab => `alt + shift + c` on PC / `option + shift + c` on 🍏
+- Open Zoho CRM Deal Module in new tab => `alt + shift + d` on PC / `option + shift + d` on 🍏
+- Open Zoho CRM Lead Module in new tab => `alt + shift + l` on PC / `option + shift + l` on 🍏
 
-### Navigation
+⭐️ COMING SOON
+- Define your own key bindings for optimal personal usage
+- More feature requests from Zoho CRM power users
 
-| Command                      | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ---------------------------- | -------------------- | ----------------------- |
-| [x] Jump to Menu Item 1      | `1`                  | `1`                     |
-| [x] Jump to Menu Item 2      | `2`                  | `2`                     |
-| [x] Jump to Menu Item 3      | `3`                  | `3`                     |
-| [x] Jump to Menu Item 4      | `4`                  | `4`                     |
-| [x] Jump to Menu Item 5      | `5`                  | `5`                     |
-| [x] Jump to Menu Item 6      | `6`                  | `6`                     |
-| [x] Jump to Menu Item 7      | `7`                  | `7`                     |
-| [x] Jump to Menu Item 8      | `8`                  | `8`                     |
-| [x] Jump to Menu Item 9      | `9`                  | `9`                     |
-| [x] Jump to next records     | `→ (arrow right)`    | `→ (arrow right)`       |
-| [x] Jump to previous records | `← (arrow left)`     | `← (arrow left)`        |
+✋ 👉 Non-Affiliation statement
+This extension and the developers are not affiliated in any way with Zoho, meaning this extension is not official. The extension does not alter the Zoho CRM website's HTML, it merely adds hotkeys to trigger existing links and buttons. The official Zoho website can be found at https://www.zoho.com. "Zoho", Zoho logos, and other Zoho trademarks are trademarks or registered trademarks of Zoho Corporation or its affiliates in India, the U.S. and elsewhere. Zoho Brand information: https://www.zoho.com/branding/ .
 
-### Record Managment
-
-| Command                   | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------------------- | -------------------- | ----------------------- |
-| [x] Compose email         | `alt + m`            | `option + m`            |
-| [x] Convert to potential  | `alt + c`            | `option + c`            |
-| [x] Delete current record | `alt + d`            | `option + d`            |
-| [x] Edit Zoho CRM record  | `e`                  | `e`                     |
-| [x] New Zoho CRM record   | `n`                  | `n`                     |
-| [x] Save Zoho CRM record  | `alt + s`            | `option + s`            |
-
-### Hotkeys outside of any Zoho application
-
-| Command                                     | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------------------------------------- | -------------------- | ----------------------- |
-| [x] Open Zoho CRM Account Module in new tab | `alt + shift + a`    | `option + shift + a`    |
-| [x] Open Zoho CRM Contact Module in new tab | `alt + shift + c`    | `option + shift + c`    |
-| [x] Open Zoho CRM Deal Module in new tab    | `alt + shift + d`    | `option + shift + d`    |
-| [x] Open Zoho CRM Lead Module in new tab    | `alt + shift + l`    | `option + shift + l`    |
-
-## Non-Affiliation statement
-
-This extension and the developers are not affiliated in any way with Zoho, meaning this extension is not official. The extension does not alter the Zoho CRM website's HTML, it merely adds hotkeys to trigger existing links and buttons.
-
-The official Zoho website can be found at https://www.zoho.com.
-"Zoho", Zoho logos, and other Zoho trademarks are trademarks or registered trademarks of Zoho Corporation or its affiliates in India, the U.S. and elsewhere.
-
-Zoho Brand information: https://www.zoho.com/branding/
-
-## Privacy
-
-This extension does not send data to any servers.
-
-If provided by the user, the extension only saves the following data entries:
-- Zoho CRM Organization ID
-- Zoho CRM system type (crmsandbox or crm)
-- Zoho CRM domain / region
+🕵️ Privacy
+This extension does not send any data to any servers. If provided by the user, the extension only saves the following data entries: Zoho CRM Organization ID, system type (crmsandbox or crm) and region.
 
 Open Source Code: https://github.com/b310-digital/zoho-crm-hotkeys
 ```
 
-## Garaphic Elements
+## Chrome Web Store - Garaphic Elements
 
-# Logos
+### Logos
 
 - Banner: ./chrome_web_store_logo.png
 - Logo (PNG): ../public/images/zoho_better_hotkeys_icon.png
