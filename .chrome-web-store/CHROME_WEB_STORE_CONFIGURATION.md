@@ -1,25 +1,28 @@
-# Zoho CRM Hotkeys as Chrome Browser Extension
+# Google Chrome Web Store Configuration
 
-## Development
+This folder contains the text, assets and other content used in the entry in the Google Chrome Web Store. We want to keep it up to date.
 
-```bash
-docker compose up -d
-docker compose exec hotkeys npm run build
+## Extension Name
+
+```text
+Better Hotkeys For Zoho CRM
 ```
 
-For continuous bundling you can the `--watch` command
+## Extension Description
 
-```bash
-docker compose exec hotkeys npm run build -- --watch
-```
+```text
+'Better Hotkeys for Zoho CRM' provides easy keyboard hotkeys to make you the fastest Zoho CRM power user in your company.
 
-Import the `public` directory in chrome to use it as an extension:
+## Features
 
-https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
+- Quickly open main Zoho CRM modules in a new tab from anywhere
+- Easy keyboard hotkeys for navigating through Zoho CRM menu bar
+- Create new, edit and delete Zoho CRM records at the speed of light
+- Privacy-focussed extension storing no personal data
+- Support for all Zoho CRM regions
+- Coming soon: Define your own key bindings for optimal personal usage, more feature requests from Zoho CRM power users
 
-## Hotkey Overview
-
-### Built-in Zoho CRM Hotkeys
+## Available Zoho CRM Hotkeys
 
 | Command           | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
 | ----------------- | -------------------- | ----------------------- |
@@ -61,20 +64,37 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 | [x] Open Zoho CRM Deal Module in new tab    | `alt + shift + d`    | `option + shift + d`    |
 | [x] Open Zoho CRM Lead Module in new tab    | `alt + shift + l`    | `option + shift + l`    |
 
-### Upcoming hotkeys
+## Non-Affiliation statement
 
-| Task                           | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------------------------ | -------------------- | ----------------------- |
-| [ ] Jump to notes in edit mode | `alt + n + o`        | `option + n + o`        |
+This extension and the developers are not affiliated in any way with Zoho, meaning this extension is not official. The extension does not alter the Zoho CRM website's HTML, it merely adds hotkeys to trigger existing links and buttons.
 
-## Links
+The official Zoho website can be found at https://www.zoho.com.
+"Zoho", Zoho logos, and other Zoho trademarks are trademarks or registered trademarks of Zoho Corporation or its affiliates in India, the U.S. and elsewhere.
 
-Keyboard font by 212 Fonts: https://www.fontspace.com/212-keyboard-font-f34592
+Zoho Brand information: https://www.zoho.com/branding/
 
-## License
+## Privacy
 
-Licensed under AGPL
+This extension does not send data to any servers.
 
-## Chrome Web Store
+If provided by the user, the extension only saves the following data entries:
+- Zoho CRM Organization ID
+- Zoho CRM system type (crmsandbox or crm)
+- Zoho CRM domain / region
 
-The folder `.chrome-web-store` contains all text, assets and other content used in the Google Chrome Web Store, e.g. [.chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md](.chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md) We want to keep it up to date.
+Open Source Code: https://github.com/b310-digital/zoho-crm-hotkeys
+```
+
+## Garaphic Elements
+
+# Logos
+
+- Banner: ./chrome_web_store_logo.png
+- Logo (PNG): ../public/images/zoho_better_hotkeys_icon.png
+- Logo (SVG): ../public/images/zoho_better_hotkeys_icon.svg
+- Global Hero Video: https://youtu.be/dDnyZ4gi1Ho
+- Screenshots:
+  - ./chrome_web_store_screenshot_zoho_crm_with_open_extension_popup_top_1280x800.png
+  - ./chrome_web_store_screenshot_zoho_crm_with_open_extension_popup_section_available_hotkeys_1280x800.png
+  - ./chrome_web_store_screenshot_zoho_crm_and_shortcut_1280x800.png
+  - ./chrome_web_store_screenshot_extension_popup_section_available_hotkeys_1280x800.png
