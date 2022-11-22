@@ -9,3 +9,6 @@ docker-compose.override.yml
 
 # Ignoring local workspace settings in vscode
 .vscode/settings.json
+
+# Ignoring the release distributions
+/dist
