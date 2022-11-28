@@ -34,6 +34,7 @@
       "suggested_key": {
         "default": "Alt+Shift+A",
         "mac": "Alt+Shift+A",
+        "linux": "Alt+Shift+O",
         "windows": "Alt+Shift+O"
       }
     },
