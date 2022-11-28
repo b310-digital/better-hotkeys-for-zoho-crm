@@ -64,7 +64,7 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 
 | Command                                 | Hotkey (PC)       | Hotkey (Apple)       |
 | --------------------------------------- | ----------------- | -------------------- |
-| Open Zoho CRM Account Module in new tab | `alt + shift + a` | `option + shift + a` |
+| Open Zoho CRM Account Module in new tab | `alt + shift + o` | `option + shift + a` |
 | Open Zoho CRM Contact Module in new tab | `alt + shift + c` | `option + shift + c` |
 | Open Zoho CRM Deal Module in new tab    | `alt + shift + d` | `option + shift + d` |
 | Open Zoho CRM Lead Module in new tab    | `alt + shift + l` | `option + shift + l` |

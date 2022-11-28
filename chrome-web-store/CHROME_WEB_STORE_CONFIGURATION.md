@@ -30,7 +30,7 @@ Create new, edit, save and delete Zoho CRM records at the speed of light
 - etc.
 
 Quickly open Zoho CRM modules in a new tab from anywhere
-- Open Zoho Account Module = `alt + shift + a` on PC / `option + shift + a` on Apple
+- Open Zoho Account Module = `alt + shift + o` on PC / `option + shift + a` on Apple
 - Open Zoho Contact Module = `alt + shift + c` on PC / `option + shift + c` on Apple
 - Open Zoho Deal Module = `alt + shift + d` on PC / `option + shift + d` on Apple
 - etc.
