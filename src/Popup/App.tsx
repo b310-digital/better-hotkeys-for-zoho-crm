@@ -20,7 +20,9 @@ export default function App() {
     });
 
     chrome.storage.local.get("zohoCRMSystem", (result) => {
-      setZohoCRMSystem(result.zohoCRMSystem);
+      const zohoCRMSystem = result.zohoCRMSystem;
+      if (!zohoCRMSystem) saveData("zohoCRMSystem", "crm");
+      setZohoCRMSystem(zohoCRMSystem);
     });
   }, []);
 
