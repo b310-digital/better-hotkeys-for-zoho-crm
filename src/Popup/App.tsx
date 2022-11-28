@@ -385,16 +385,7 @@ export default function App() {
                   <kbd>Alt</kbd> <kbd>⇧ shift</kbd> <kbd>a</kbd>
                 </td>
                 <td>
-                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>a</kbd>
-                </td>
-              </tr>
-              <tr>
-                <td>Open Deals Module (global)</td>
-                <td>
-                  <kbd>Alt</kbd> <kbd>⇧ shift</kbd> <kbd>d</kbd>
-                </td>
-                <td>
-                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>d</kbd>
+                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>o</kbd>
                 </td>
               </tr>
               <tr>
@@ -404,6 +395,15 @@ export default function App() {
                 </td>
                 <td>
                   <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>c</kbd>
+                </td>
+              </tr>
+              <tr>
+                <td>Open Deals Module (global)</td>
+                <td>
+                  <kbd>Alt</kbd> <kbd>⇧ shift</kbd> <kbd>d</kbd>
+                </td>
+                <td>
+                  <kbd>⌥ option</kbd> <kbd>⇧ shift</kbd> <kbd>d</kbd>
                 </td>
               </tr>
               <tr>

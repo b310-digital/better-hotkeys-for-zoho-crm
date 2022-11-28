@@ -29,33 +29,34 @@
     }
   ],
   "commands": {
-    "zoho-leads-open": {
-      "suggested_key": {
-        "default": "Alt+Shift+L",
-        "mac": "Alt+Shift+L"
-      },
-      "description": "Open Leads module"
-    },
-    "zoho-deals-open": {
-      "suggested_key": {
-        "default": "Alt+Shift+D",
-        "mac": "Alt+Shift+D"
-      },
-      "description": "Open Deals module"
-    },
     "zoho-accounts-open": {
+      "description": "Open Accounts module",
       "suggested_key": {
         "default": "Alt+Shift+A",
-        "mac": "Alt+Shift+A"
-      },
-      "description": "Open Accounts module"
+        "mac": "Alt+Shift+A",
+        "windows": "Alt+Shift+O"
+      }
     },
     "zoho-contacts-open": {
+      "description": "Open Contacts module",
       "suggested_key": {
         "default": "Alt+Shift+C",
         "mac": "Alt+Shift+C"
-      },
-      "description": "Open Contacts module"
+      }
+    },
+    "zoho-deals-open": {
+      "description": "Open Deals module",
+      "suggested_key": {
+        "default": "Alt+Shift+D",
+        "mac": "Alt+Shift+D"
+      }
+    },
+    "zoho-leads-open": {
+      "description": "Open Leads module",
+      "suggested_key": {
+        "default": "Alt+Shift+L",
+        "mac": "Alt+Shift+L"
+      }
     }
   },
   "permissions": ["storage"]
