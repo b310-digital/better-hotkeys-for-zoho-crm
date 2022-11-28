@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+
 # Hotkeys for Zoho CRM as Chrome Browser Extension
+
+=======
+
+# Better Hotkeys for Zoho CRM - Chrome Browser Extension
+
+> > > > > > > 0970161 (docs: Apply the correct title of the chrome extension everywhere)
 
 ## Development
 
@@ -21,51 +29,51 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 
 ### Built-in Zoho CRM Hotkeys
 
-| Command           | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ----------------- | -------------------- | ----------------------- |
-| [x] Global search | `alt + space`        | `option + space`        |
+| Command       | Hotkey (PC)   | Hotkey (Apple)   |
+| ------------- | ------------- | ---------------- |
+| Global search | `alt + space` | `option + space` |
 
 ### Navigation
 
-| Command                      | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ---------------------------- | -------------------- | ----------------------- |
-| [x] Jump to Menu Item 1      | `1`                  | `1`                     |
-| [x] Jump to Menu Item 2      | `2`                  | `2`                     |
-| [x] Jump to Menu Item 3      | `3`                  | `3`                     |
-| [x] Jump to Menu Item 4      | `4`                  | `4`                     |
-| [x] Jump to Menu Item 5      | `5`                  | `5`                     |
-| [x] Jump to Menu Item 6      | `6`                  | `6`                     |
-| [x] Jump to Menu Item 7      | `7`                  | `7`                     |
-| [x] Jump to Menu Item 8      | `8`                  | `8`                     |
-| [x] Jump to Menu Item 9      | `9`                  | `9`                     |
-| [x] Jump to next records     | `→ (arrow right)`    | `→ (arrow right)`       |
-| [x] Jump to previous records | `← (arrow left)`     | `← (arrow left)`        |
+| Command                  | Hotkey (PC)       | Hotkey (Apple)    |
+| ------------------------ | ----------------- | ----------------- |
+| Jump to Menu Item 1      | `1`               | `1`               |
+| Jump to Menu Item 2      | `2`               | `2`               |
+| Jump to Menu Item 3      | `3`               | `3`               |
+| Jump to Menu Item 4      | `4`               | `4`               |
+| Jump to Menu Item 5      | `5`               | `5`               |
+| Jump to Menu Item 6      | `6`               | `6`               |
+| Jump to Menu Item 7      | `7`               | `7`               |
+| Jump to Menu Item 8      | `8`               | `8`               |
+| Jump to Menu Item 9      | `9`               | `9`               |
+| Jump to next records     | `→ (arrow right)` | `→ (arrow right)` |
+| Jump to previous records | `← (arrow left)`  | `← (arrow left)`  |
 
 ### Record Managment
 
-| Command                   | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------------------- | -------------------- | ----------------------- |
-| [x] Compose email         | `alt + m`            | `option + m`            |
-| [x] Convert to potential  | `alt + c`            | `option + c`            |
-| [x] Delete current record | `alt + d`            | `option + d`            |
-| [x] Edit Zoho CRM record  | `e`                  | `e`                     |
-| [x] New Zoho CRM record   | `n`                  | `n`                     |
-| [x] Save Zoho CRM record  | `alt + s`            | `option + s`            |
+| Command               | Hotkey (PC) | Hotkey (Apple) |
+| --------------------- | ----------- | -------------- |
+| Compose email         | `alt + m`   | `option + m`   |
+| Convert to potential  | `alt + c`   | `option + c`   |
+| Delete current record | `alt + d`   | `option + d`   |
+| Edit Zoho CRM record  | `e`         | `e`            |
+| New Zoho CRM record   | `n`         | `n`            |
+| Save Zoho CRM record  | `alt + s`   | `option + s`   |
 
 ### Hotkeys outside of any Zoho application
 
-| Command                                     | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------------------------------------- | -------------------- | ----------------------- |
-| [x] Open Zoho CRM Account Module in new tab | `alt + shift + a`    | `option + shift + a`    |
-| [x] Open Zoho CRM Contact Module in new tab | `alt + shift + c`    | `option + shift + c`    |
-| [x] Open Zoho CRM Deal Module in new tab    | `alt + shift + d`    | `option + shift + d`    |
-| [x] Open Zoho CRM Lead Module in new tab    | `alt + shift + l`    | `option + shift + l`    |
+| Command                                 | Hotkey (PC)       | Hotkey (Apple)       |
+| --------------------------------------- | ----------------- | -------------------- |
+| Open Zoho CRM Account Module in new tab | `alt + shift + a` | `option + shift + a` |
+| Open Zoho CRM Contact Module in new tab | `alt + shift + c` | `option + shift + c` |
+| Open Zoho CRM Deal Module in new tab    | `alt + shift + d` | `option + shift + d` |
+| Open Zoho CRM Lead Module in new tab    | `alt + shift + l` | `option + shift + l` |
 
 ### Upcoming hotkeys
 
-| Task                           | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------------------------ | -------------------- | ----------------------- |
-| [ ] Jump to notes in edit mode | `alt + n + o`        | `option + n + o`        |
+| Task                       | Hotkey (PC)   | Hotkey (Apple)   |
+| -------------------------- | ------------- | ---------------- |
+| Jump to notes in edit mode | `alt + n + o` | `option + n + o` |
 
 ## Links
 
@@ -77,4 +85,4 @@ Licensed under AGPL
 
 ## Chrome Web Store
 
-The folder `.chrome-web-store` contains all text, assets and other content used in the Google Chrome Web Store, e.g. [.chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md](.chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md) We want to keep it up to date.
+The directory `./chrome-web-store` contains all text, assets and other content used in the Google Chrome Web Store, e.g. [./chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md](./chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md) We want to keep it up to date.
