@@ -29,51 +29,51 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/
 
 ### Built-in Zoho CRM Hotkeys
 
-| Command       | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------- | -------------------- | ----------------------- |
-| Global search | `alt + space`        | `option + space`        |
+| Command       | Hotkey (PC)   | Hotkey (Apple)   |
+| ------------- | ------------- | ---------------- |
+| Global search | `alt + space` | `option + space` |
 
 ### Navigation
 
-| Command                  | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| ------------------------ | -------------------- | ----------------------- |
-| Jump to Menu Item 1      | `1`                  | `1`                     |
-| Jump to Menu Item 2      | `2`                  | `2`                     |
-| Jump to Menu Item 3      | `3`                  | `3`                     |
-| Jump to Menu Item 4      | `4`                  | `4`                     |
-| Jump to Menu Item 5      | `5`                  | `5`                     |
-| Jump to Menu Item 6      | `6`                  | `6`                     |
-| Jump to Menu Item 7      | `7`                  | `7`                     |
-| Jump to Menu Item 8      | `8`                  | `8`                     |
-| Jump to Menu Item 9      | `9`                  | `9`                     |
-| Jump to next records     | `→ (arrow right)`    | `→ (arrow right)`       |
-| Jump to previous records | `← (arrow left)`     | `← (arrow left)`        |
+| Command                  | Hotkey (PC)       | Hotkey (Apple)    |
+| ------------------------ | ----------------- | ----------------- |
+| Jump to Menu Item 1      | `1`               | `1`               |
+| Jump to Menu Item 2      | `2`               | `2`               |
+| Jump to Menu Item 3      | `3`               | `3`               |
+| Jump to Menu Item 4      | `4`               | `4`               |
+| Jump to Menu Item 5      | `5`               | `5`               |
+| Jump to Menu Item 6      | `6`               | `6`               |
+| Jump to Menu Item 7      | `7`               | `7`               |
+| Jump to Menu Item 8      | `8`               | `8`               |
+| Jump to Menu Item 9      | `9`               | `9`               |
+| Jump to next records     | `→ (arrow right)` | `→ (arrow right)` |
+| Jump to previous records | `← (arrow left)`  | `← (arrow left)`  |
 
 ### Record Managment
 
-| Command               | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| --------------------- | -------------------- | ----------------------- |
-| Compose email         | `alt + m`            | `option + m`            |
-| Convert to potential  | `alt + c`            | `option + c`            |
-| Delete current record | `alt + d`            | `option + d`            |
-| Edit Zoho CRM record  | `e`                  | `e`                     |
-| New Zoho CRM record   | `n`                  | `n`                     |
-| Save Zoho CRM record  | `alt + s`            | `option + s`            |
+| Command               | Hotkey (PC) | Hotkey (Apple) |
+| --------------------- | ----------- | -------------- |
+| Compose email         | `alt + m`   | `option + m`   |
+| Convert to potential  | `alt + c`   | `option + c`   |
+| Delete current record | `alt + d`   | `option + d`   |
+| Edit Zoho CRM record  | `e`         | `e`            |
+| New Zoho CRM record   | `n`         | `n`            |
+| Save Zoho CRM record  | `alt + s`   | `option + s`   |
 
 ### Hotkeys outside of any Zoho application
 
-| Command                                 | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| --------------------------------------- | -------------------- | ----------------------- |
-| Open Zoho CRM Account Module in new tab | `alt + shift + a`    | `option + shift + a`    |
-| Open Zoho CRM Contact Module in new tab | `alt + shift + c`    | `option + shift + c`    |
-| Open Zoho CRM Deal Module in new tab    | `alt + shift + d`    | `option + shift + d`    |
-| Open Zoho CRM Lead Module in new tab    | `alt + shift + l`    | `option + shift + l`    |
+| Command                                 | Hotkey (PC)       | Hotkey (Apple)       |
+| --------------------------------------- | ----------------- | -------------------- |
+| Open Zoho CRM Account Module in new tab | `alt + shift + a` | `option + shift + a` |
+| Open Zoho CRM Contact Module in new tab | `alt + shift + c` | `option + shift + c` |
+| Open Zoho CRM Deal Module in new tab    | `alt + shift + d` | `option + shift + d` |
+| Open Zoho CRM Lead Module in new tab    | `alt + shift + l` | `option + shift + l` |
 
 ### Upcoming hotkeys
 
-| Task                       | Hotkey (PC Keyboard) | Hotkey (Apple Keyboard) |
-| -------------------------- | -------------------- | ----------------------- |
-| Jump to notes in edit mode | `alt + n + o`        | `option + n + o`        |
+| Task                       | Hotkey (PC)   | Hotkey (Apple)   |
+| -------------------------- | ------------- | ---------------- |
+| Jump to notes in edit mode | `alt + n + o` | `option + n + o` |
 
 ## Links
 
