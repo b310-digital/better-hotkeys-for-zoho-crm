@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+
 # Hotkeys for Zoho CRM as Chrome Browser Extension
+
 =======
+
 # Better Hotkeys for Zoho CRM - Chrome Browser Extension
->>>>>>> 0970161 (docs: Apply the correct title of the chrome extension everywhere)
+
+> > > > > > > 0970161 (docs: Apply the correct title of the chrome extension everywhere)
 
 ## Development
 
@@ -81,4 +85,4 @@ Licensed under AGPL
 
 ## Chrome Web Store
 
-The folder `.chrome-web-store` contains all text, assets and other content used in the Google Chrome Web Store, e.g. [.chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md](.chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md) We want to keep it up to date.
+The directory `./chrome-web-store` contains all text, assets and other content used in the Google Chrome Web Store, e.g. [./chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md](./chrome-web-store/CHROME_WEB_STORE_CONFIGURATION.md) We want to keep it up to date.
