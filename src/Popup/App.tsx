@@ -176,7 +176,7 @@ export default function App() {
             <thead>
               <tr>
                 <th>Function</th>
-                <th>Hotkey PC</th>
+                <th>Hotkey PC (Win / Linux)</th>
                 <th>Hotkey Mac</th>
               </tr>
             </thead>
@@ -197,7 +197,7 @@ export default function App() {
             <thead>
               <tr>
                 <th>Function</th>
-                <th>Hotkey PC</th>
+                <th>Hotkey PC (Win / Linux)</th>
                 <th>Hotkey Mac</th>
               </tr>
             </thead>
@@ -308,7 +308,7 @@ export default function App() {
             <thead>
               <tr>
                 <th>Function</th>
-                <th>Hotkey PC</th>
+                <th>Hotkey PC (Win / Linux)</th>
                 <th>Hotkey Mac</th>
               </tr>
             </thead>
@@ -374,7 +374,7 @@ export default function App() {
             <thead>
               <tr>
                 <th>Function</th>
-                <th>Hotkey PC</th>
+                <th>Hotkey PC (Win / Linux)</th>
                 <th>Hotkey Mac</th>
               </tr>
             </thead>
