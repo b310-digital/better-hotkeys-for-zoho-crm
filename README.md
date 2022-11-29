@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-
-# Hotkeys for Zoho CRM as Chrome Browser Extension
-
-=======
-
 # Better Hotkeys for Zoho CRM - Chrome Browser Extension
-
-> > > > > > > 0970161 (docs: Apply the correct title of the chrome extension everywhere)
 
 ## Development
 
