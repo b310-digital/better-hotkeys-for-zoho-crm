@@ -26,13 +26,13 @@ Easy keyboard hotkeys for navigating the Zoho CRM menu bar
 Create new, edit, save and delete Zoho CRM records at the speed of light
 - New Zoho record = `n`
 - Edit Zoho record = `e`
-- Save Zoho record = `alt + s` on PC / `option + s` on Apple
+- Save Zoho record = `alt + s` on Win and Linux / `option + s` on Apple
 - etc.
 
 Quickly open Zoho CRM modules in a new tab from anywhere
-- Open Zoho Account Module = `alt + shift + a` on PC / `option + shift + a` on Apple
-- Open Zoho Contact Module = `alt + shift + c` on PC / `option + shift + c` on Apple
-- Open Zoho Deal Module = `alt + shift + d` on PC / `option + shift + d` on Apple
+- Open Zoho Account Module = `alt + shift + o` on Win and Linux / `option + shift + a` on Apple
+- Open Zoho Contact Module = `alt + shift + c` on Win and Linux / `option + shift + c` on Apple
+- Open Zoho Deal Module = `alt + shift + d` on Win and Linux / `option + shift + d` on Apple
 - etc.
 
 COMING SOON ...

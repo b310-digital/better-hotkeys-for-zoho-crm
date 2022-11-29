@@ -1,6 +1,6 @@
 {
   "name": "better-hotkeys-for-zoho-crm",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "Better Hotkeys for Zoho CRM - Chrome Browser Extension",
   "scripts": {
     "build": "NODE_ENV=\"production\" node esbuild.js",
